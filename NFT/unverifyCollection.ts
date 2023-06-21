@@ -9,7 +9,7 @@ import { Connection, Keypair } from "@solana/web3.js";
 const connection = new Connection("https://api.mainnet-beta.solana.com");
 
 const wallet = Keypair.fromSecretKey(
-  // Keypair sous forme de [33, 33,33]
+  // Keypair like [33, 33,33]
   new Uint8Array([])
 );
 
