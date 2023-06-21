@@ -2,7 +2,7 @@
 
 
 Tools for Solana:
-- Lock / unlock P-NFT
+- Lock / unlock pNFT
 - Close accounts from wallet
 - Find empty account from wallet
 - get owner of account from mint
