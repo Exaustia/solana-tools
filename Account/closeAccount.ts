@@ -35,7 +35,6 @@ export async function closeAccounts(mints: string[], wallet: string) {
 }
 
 async function getTokenAccount(mintAddress: string, userWallet: string) {
-  // Récupérer la liste des comptes de tokens pour le mint donné
   const tokenAccountPubkey = await getAssociatedTokenAddress(
     new PublicKey(mintAddress),
     new PublicKey(userWallet)
